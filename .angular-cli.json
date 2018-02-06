@@ -11,7 +11,8 @@
         "assets",
         "favicon.ico",
         "images/background.jpg",
-        "fonts/ordnung.ttf"
+        "fonts/ordnung.ttf",
+        "assets/styles/hover.css"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -21,7 +22,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/styles/hover.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

@@ -108,6 +108,13 @@ footer p
     letter-spacing: 0.03em;
 	text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.burger a:hover, a:visited, a:link, a:active
+{
+    color: #8C1000;
+    text-decoration: none;
 }
 
 .menu-overlay{
@@ -115,7 +122,7 @@ footer p
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.mobile-nav a:hover {
     background-color: #000;
 }
 
