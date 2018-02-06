@@ -80,7 +80,7 @@ footer p
 
 .default-nav li a {
     display: block;
-    color: #8C1000;
+    color: #AA1C21;
     text-align: center;
     padding: 0.8em 1em;
     font-size: 1em;
@@ -91,7 +91,7 @@ footer p
 
 .mobile-nav a{
     display: block;
-    color: #8C1000;
+    color: #AA1C21;
     text-align: center;
     padding: 0.8em 1em;
     font-size: 2em;
@@ -102,7 +102,7 @@ footer p
 
 .burger{
     display: block;
-    color: #8C1000;
+    color: #AA1C21;
     padding: 0.8em 1em;
     font-size: 1.5em;
     letter-spacing: 0.03em;
@@ -113,7 +113,7 @@ footer p
 
 .burger a:hover, a:visited, a:link, a:active
 {
-    color: #8C1000;
+    color: #AA1C21;
     text-decoration: none;
 }
 

@@ -46,7 +46,7 @@ table {
 
 
 a{
-    color: #8C1000;
+    color: #AA1C21;
 }
 
 a:link {
@@ -79,8 +79,9 @@ p
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #8C1000;
+    color: #AA1C21;
     text-align:left;
+    padding:12px;
 }
 
 h1 
@@ -120,13 +121,13 @@ h2
     font-family: 'Ordnung';
     font-size: 5em;
     letter-spacing: 2px;
-    color: #8C1000;
+    color: #AA1C21;
   
 }
 
 li {
     display: inline;
-    color: #8C1000;
+    color: #AA1C21;
 }
 
 .image{
@@ -147,7 +148,8 @@ li {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-  padding-right:20px;
+  padding-right:50px;
+  
 }
 
 .media__video {
@@ -181,7 +183,7 @@ article{
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-
+    width: 60%;
     padding-left:10px;
     padding-right:10px;
 }
@@ -195,11 +197,16 @@ article{
     transform: rotate(180deg);
     white-space:nowrap;
     display:block;
-    font-size: 10em;
+    font-size: 3em;
+    
+}
+
+.vertical-container{
+  padding-left: 12px;
 }
 
 .alt-color{
-    background-color:#8C1000;
+    background-color:#AA1C21;
 }
 
 .alt-color h2{
@@ -433,12 +440,12 @@ article{
   }
 
   @media screen and (max-width: 600px) {
-    .vertical{
+    /* .vertical{
     writing-mode:tb-rl;
     white-space:nowrap;
     display:block;
-    font-size: 5em;
-    }
+    font-size: 3em;
+    } */
 
     .title{
       font-family: 'Ordnung';
@@ -449,6 +456,7 @@ article{
     .container{
       padding-left:10px;
       padding-right:10px;
+      width: 90%;
     }
 
     .video-wrapper{
