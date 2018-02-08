@@ -44,6 +44,10 @@ table {
 	border-spacing: 0;
 }
 
+.social-links li
+{
+  color: #111;
+}
 
 a{
     color: #AA1C21;
@@ -125,11 +129,6 @@ h2
   
 }
 
-li {
-    display: inline;
-    color: #AA1C21;
-}
-
 .image{
     background-size:cover; width:auto;
     background-image:url('/images/background.jpg');
@@ -148,7 +147,8 @@ li {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-  padding-right:50px;
+  padding: 20px;
+  
   
 }
 
@@ -186,6 +186,10 @@ article{
     width: 60%;
     padding-left:10px;
     padding-right:10px;
+}
+
+.container-video{
+  width: 90%;
 }
 
 .vertical{
@@ -413,6 +417,10 @@ article{
   
     .Grid--gutters.Grid--nested .Grid-cell:first-of-type .Demo {
       margin-right: 0;
+    }
+
+    .media{
+      padding:50px;
     }
   }
   .content-1of1::before {

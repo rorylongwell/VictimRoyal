@@ -74,7 +74,7 @@ footer p
     background-color: #111;
 }
 
-.default-nav li {
+.default-nav li a{
     float: left;
 }
 
