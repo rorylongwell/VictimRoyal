@@ -148,9 +148,16 @@ h2
     -webkit-justify-content: center;
     justify-content: center;
   padding: 20px;
-
 }
 
+.spotify-media{
+  display: flex;
+  -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  padding: 20px;
+}
 
 .media__video {
   position: relative;
