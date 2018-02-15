@@ -148,9 +148,9 @@ h2
     -webkit-justify-content: center;
     justify-content: center;
   padding: 20px;
-  
-  
+
 }
+
 
 .media__video {
   position: relative;
@@ -188,6 +188,19 @@ article{
     padding-right:10px;
 }
 
+.container-column
+{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height:120px;
+}
+
 .container-video{
   width: 90%;
 }
@@ -203,6 +216,10 @@ article{
     display:block;
     font-size: 3em;
     
+}
+
+.spotify-container{
+  padding:20px;
 }
 
 .vertical-container{
@@ -237,6 +254,12 @@ article{
 .Grid {
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .Grid-column {
+    display: flex;
+    flex-flow: column;
     flex-wrap: wrap;
   }
   
