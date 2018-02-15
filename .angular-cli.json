@@ -11,8 +11,7 @@
         "assets",
         "favicon.ico",
         "images/background.jpg",
-        "fonts/ordnung.ttf",
-        "assets/styles/hover.css"
+        "fonts/ordnung.ttf"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -23,7 +22,6 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "assets/styles/hover.css",
         "../node_modules/font-awesome/css/font-awesome.css"
       ],
       "scripts": [],

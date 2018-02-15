@@ -195,6 +195,21 @@ article{
     padding-right:10px;
 }
 
+.container-links
+{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: left;
+    justify-content: left;
+    width: 60%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
 .container-column
 {
     display: -webkit-flex;
@@ -227,6 +242,28 @@ article{
 
 .spotify-container{
   padding:20px;
+}
+
+.follow-links a{
+  color: #111;
+  display: block;
+    
+    padding: 0.4em 0.5em;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+	  text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.follow-links span{
+  text-align: left;
+}
+
+.follow-links i{
+  text-align: center;
+  color: #111;
+  font-family: 'FontAwesome';
+  font-size: 1.4em;
 }
 
 .vertical-container{

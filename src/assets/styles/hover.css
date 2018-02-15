@@ -1204,6 +1204,7 @@
   color: white;
 }
 
+
 /* Back Pulse */
 @-webkit-keyframes hvr-back-pulse {
   50% {
@@ -1212,7 +1213,7 @@
 }
 @keyframes hvr-back-pulse {
   50% {
-    background-color: rgb(140, 16, 0);
+    background-color: #8C1000;
   }
 }
 .hvr-back-pulse {

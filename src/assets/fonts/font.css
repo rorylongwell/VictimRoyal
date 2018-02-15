@@ -11,7 +11,7 @@
   font-family: 'ordnung';
   src: url('ordnung.eot');
   src: url('ordnung.woff2') format('woff2'),
-       url('ordnung.eot?#iefix') format('embedded-opentype');
+       url('ordnung.eot?#iefix') format('embedded-opentype'),
 	url('ordnung.woff') format('woff'),
        url('ordnung.ttf') format('truetype'),
        url('ordnung.svg#ordnung') format('svg');
